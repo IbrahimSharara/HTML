@@ -1,0 +1,24 @@
+.header
+{
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size:cover ;
+  /* background-size: 200px 300px ; */
+  background-color: #093212 ;
+  color: white ;
+  text-align: center;
+  text-decoration:none /* NOTE: */;
+  padding: 30px ;
+  margin: 30px ;
+  background-attachment: scroll; /* fixed => it will be fixed while scrolling -- scroll is the defoult one  */
+  text-transform: full-width;
+    /* background-position: left top; */
+  background-position: 5% 20%;/* NOTE: IF RIGHT ONE VALUE THE SECOND WILL BE center */
+
+}
+
+.header_links
+{
+  text-decoration: none;
+  list-style: none  ;
+}
