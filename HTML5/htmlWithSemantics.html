@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <<meta name="description" content="this is to discrip my site info and content">
+    <!-- <<link rel="stylesheet" href="/css/master.css"> -->
+    <title>Html clean</title>
+  </head>
+  <body>
+    <header>
+      <h2>this is my site name</h2>
+         <ul>
+        <li>Home</li>
+        <li>Information</li>
+        <li>About</li>
+        <li>Contact me</li>
+      </ul>
+    </hea der>
+    <hr>
+    <nav>
+      <li>link</li>
+      <li>link</li>
+      <li>link</li>
+      <li>link</li>
+      <li>link</li>
+    </nav>
+    <section>
+      <figure>
+        <img src="images/background.jpg" alt="">
+        <figcaption>this is the photo caption</figcaption>
+      </figure>
+    </section>
+
+    <form class="" action="index.html" method="get" target="_blank">
+      <div class="">
+        <label for="">enter your name</label>
+        <input type="text" name="" value="" placeholder="please enter your name" required>
+      </div>
+      <br>
+      <div class="">
+        <label for=""> please enter your password</label>
+        <input type="password" name="" value="" required >
+      </div>
+      <br>
+      <div class="">
+        <label for="">E-Mail</label>
+        <input type="email" name="" value="" required placeholder="please enter a valid email">
+      </div>
+
+      <div class="">
+          <input type="radio" name="os" value="Mac" id="mac"><label for="mac"> Mac</label>
+          <input type="radio" name="os" value="Window" id="win"><label for="win"> Window</label>
+          <input type="radio" name="os" value="Linux" id = "linux"><label for = "linux"> linux</label>
+      </div>
+      <div class="">
+        <input type="submit" name="submit" >
+      </div>
+
+      <hr>
+      <!-- here can select any option and it is not arranged in groups -->
+      <label for="books">Choose any book</label>
+      <select class="" name="" id="books">
+        <option value="book 1">book 1</option>
+        <option value="book 2">book 2</option>
+        <option value="book 3">book 3</option>
+        <option value="book 4">book 4</option>
+        <option value="book 5">book 5</option>
+      </select>
+
+      <hr>
+      <label>second selection</label>
+      <select  multiple >
+         <optgroup label="first selection"> <!--if want to select multiple element use multiple attribute -->
+          <option value="book6" selected >book 6</option> <!-- if want to make it the defoult one or the selected one use selected -->
+          <option value="book7">book 7</option>
+          <option value="book8">book 8</option>
+          <option value="book9">book 9</option>
+        </optgroup>
+
+        <optgroup label="second selection">
+          <option value="book6">book 6</option>
+          <option value="book7">book 7</option>
+          <option value="book8">book 8</option>
+          <option value="book9">book 9</option>
+        </optgroup>
+      </select>
+
+      <textarea name="name" rows="8" cols="80" placeholder="please enter any text"></textarea>
+      <hr>
+      <label for="">Upload</label>
+      <input type="file" >
+      <hr>
+      <label for="">search</label>
+      <input type="search" >
+
+      <hr>
+      <label for="">URL</label>
+      <input type="url" >
+
+      <hr>
+      <label for="">Date</label>
+      <input type="date" name="lljl">
+    </form>
+    <aside class="aside" >
+      slider
+    </aside>
+    <hr>
+    <footer>
+this is the site footer
+    </footer>
+  </body>
+</html>
